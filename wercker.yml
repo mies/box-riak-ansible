@@ -1,0 +1,7 @@
+box: wouter/ubuntu12.04-ansbile
+build:
+  steps:
+    - script:
+        name: install riak
+        code: |
+            sudo ansible-playbook -v site.yml -i inventory.ini -c local
