@@ -1,4 +1,4 @@
-box: wouter/ubuntu12.04-ansbile
+box: mies/ubuntu12.04-ansbile
 build:
   steps:
     - script:
